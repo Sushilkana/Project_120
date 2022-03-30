@@ -1,0 +1,165 @@
+#img1{
+    width:100%;
+    height:250px;
+}
+
+h1{
+    margin-top:-16%;
+    color:chartreuse;
+    text-shadow:3px 3px 3px red;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size:200%;
+    font-weight: bold;
+}
+
+#img2{
+    height:7%;
+    width:7%;
+    margin-left:2%;
+    margin-top:2px;
+}
+
+#head1{
+    margin-top:-85px;
+    margin-left:15%;
+    font-family:'Lobster';
+    font-size:290%;
+    color: green;
+}
+
+#label1{
+    margin-left:48%;
+    font-family: 'Pacifico', cursive;
+    font-size:300%;
+    color:violet;
+}
+
+#head2{
+    margin-left:70%;
+    margin-top:-230px;
+    font-family: 'Palette Mosaic', cursive;
+    font-size:200%;
+    color:mediumspringgreen;
+}
+
+.div{
+    background-color:darkkhaki;
+    width:90%;
+    margin-left:5%;
+    margin-top:3%;
+    height:fit-content;
+    border-radius:2%;
+    animation-name:Glow;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+.serial{
+    font-family: 'Dela Gothic One', cursive;
+    margin-left:2%;
+    margin-top:1%;
+}
+
+.images{
+    height:300px;
+    width:500px;
+    margin-left:2%;
+    margin-top: 2%;
+    border-radius:10%;
+}
+
+.p1{
+    margin-top:-350px;
+    margin-left:40%;
+    background-color:white;
+    color:black;
+    border-radius:10%;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+    width:fit-content;
+    font-weight: bold;
+}
+
+.name_span{
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+    /* letter-spacing:4px; */
+    color:purple;
+}
+
+.ans_span{
+    font-family: 'Smokum', cursive;
+    color:red;
+    font-size:20px;
+}
+
+.p2{
+    margin-top:-80px;
+    margin-left:75%;
+    width:fit-content;
+    color:black;
+    font-weight: bold;
+    border-radius:10%;
+    background-color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+}
+
+.result{
+    margin-left:64%;
+    color:white;
+    font-weight: bold;
+    font-size:110%;
+}
+
+hr{
+    width:60%;
+    margin-left:40%;
+    color: rgb(0, 0, 0);
+}
+
+.Draw{
+    margin-left:58%;
+    color:white;
+    font-size:110%;
+    font-weight: bold;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background-color: blanchedalmond;
+    color:red;
+    text-shadow:5px 5px 5px yellow;
+    font-size:200%;
+}
+
+@keyframes Glow {
+    0%{
+        box-shadow: 8px 8px 8px greenyellow;
+    }
+
+    25%{
+        box-shadow: 8px 8px 8px aquamarine;
+    }
+
+    50%{
+        box-shadow: 8px 8px 8px rgb(166, 255, 0);
+    }
+
+    75%{
+        box-shadow: 8px 8px 8px rgb(247, 0, 255);
+    }
+
+    100%{
+        box-shadow: 8px 8px 8px gold;
+    }
+}
+
+body{
+    background-image:url(Backgroundimg.jpg);
+    background-size: cover;
+}
